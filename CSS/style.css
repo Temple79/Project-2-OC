@@ -19,10 +19,12 @@ body {
 }
 
 .main-container {
-    width: 100%;
+    width: 1440px;
+    height: 1828.52px;
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    gap: 30px;
 }
 
 .section-title {
@@ -52,6 +54,60 @@ body {
 .neutralStar {
     color: var(--main-bg-color)
 }
+
+/****** Header ***********/
+header {
+    width: 1440px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image {
+    width: 121.09px;
+    height: 79px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.logo {
+    width: 61.09;
+    height: 19px;
+}
+
+.menu {
+    width: 328.6px;
+    height: 35px;
+    left: 1111.09px;
+    padding: 0px 25px 0px 25px;
+    display: flex;
+    gap: 68px;
+}
+nav {
+    width: 224px;
+    height: 35px;
+    gap: 68px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.Hébergement {
+    width: 113px;
+    height: 35px;
+}
+
+header > nav > span {
+    border-top:5px solid white;
+
+}
+
+header > nav > span:hover {
+    border-top:5px solid #0065FC;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
