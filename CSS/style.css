@@ -100,6 +100,7 @@ a.Hébergement {
     text-decoration: none;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 }
 
 a.Hébergement:hover {
@@ -114,6 +115,7 @@ a.Activités {
     text-decoration: none;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 }
 
 a.Activités:hover {
