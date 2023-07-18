@@ -60,7 +60,6 @@ header {
     height: 79px;
     display: flex;
     justify-content: space-between;
-    border: dotted;
 }
 
 .logo-image {
@@ -126,8 +125,7 @@ a.Activités:hover {
 .main {
     height: 1719.52px;
     padding: 0 50px 0 50px;
-    border: dotted;
-    gap: 35px;
+    margin-top: 35px;
 }
 
 /****** Info group ***********/
@@ -135,8 +133,8 @@ a.Activités:hover {
 .info {
     display: flex;
     flex-direction: column;
-    gap :35px;
-    border: dotted;
+    gap: 35px;
+    margin-bottom: 35px;
 }
 
 .titre {
@@ -207,19 +205,21 @@ h1 {
 }
 
 /******Filtres************/
-.filtre {
+.filters {
     width: 758px;
     height: 50px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 15px;
 }
 
-.filtres {
+.filters-title {
     width: 54px;
     height: 21px;
     font-size: 18px;
     display: flex;
+    
     justify-content: center;
 }
 
@@ -230,7 +230,7 @@ h1 {
     align-content: center;
 }
 
-.button1 {
+.filter {
     width: 173px;
     height: 50px;
     background-color: white;
@@ -245,64 +245,7 @@ h1 {
     gap: 10px;
 }
 
-.button1:hover {
-    background-color: #DEEBFF;
-}
-
-.button2 {
-    width: 134px;
-    height: 50px;
-    background-color: white;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: #D9D9D9;
-    font-size: 17px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.button2:hover {
-    background-color: #DEEBFF;
-}
-
-.button3 {
-    width: 170px;
-    height: 50px;
-    background-color: white;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: #D9D9D9;
-    font-size: 17px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.button3:hover {
-    background-color: #DEEBFF;
-}
-
-.button4 {
-    width: 167px;
-    height: 50px;
-    background-color: #DEEBFF;
-    border-radius: 25px;
-    border-style: solid;
-    border-color:  #D9D9D9;
-    font-size: 17px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.button1:hover {
+.filter:hover {
     background-color: #DEEBFF;
 }
 
@@ -317,7 +260,8 @@ h1 {
 .icon {
     width: 24px;
     height: 24px;
-    border: dotted;
+    border: 1px solid #D9D9D9;
+    border-radius:20px;
     text-align: center;
 }
 
